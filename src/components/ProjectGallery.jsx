@@ -46,7 +46,7 @@ export default function ProjectGallery() {
     </CardGroup>
   );
 }
-return <div>This is a project gallery component</div>;
+// return <div>This is a project gallery component</div>;
 
 // import Card from 'react-bootstrap/Card';
 // import CardGroup from 'react-bootstrap/CardGroup';
