@@ -6,11 +6,15 @@ import Header from './components/Header';
 import ProjectGallery from './components/ProjectGallery';
 import Contact from './components/Contact';
 
+// import Card from 'react-bootstrap/Card';
+// import CardGroup from 'react-bootstrap/CardGroup';
+
+
 function App() {
   return (
     <BrowserRouter>
      
-<Header/>
+      <Header/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
